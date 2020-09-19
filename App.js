@@ -12,7 +12,6 @@ import HomeScreen from './src/container/HomeScreen/HomeScreen';
 
 const Tab = createBottomTabNavigator();
 
-
 export default function App() {
   return (
     <NavigationContainer>
