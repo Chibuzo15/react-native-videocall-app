@@ -17,10 +17,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.urvan.webrtc"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "android": {
+      "package": "com.urvan.webrtc_test"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }
